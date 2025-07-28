@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miso D ROYAL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Miso D ROYAL</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#order">Pesan</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>WELCOME TO MiSO D.ROYAL</h2>
+            <p>Nikmati aneka miso & mie ayam spesial dengan cita rasa istimewa yang khas!</p>
+            <button onclick="scrollToMenu()">Lihat Menu</button>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="container">
+            <h2>Menu Kami</h2>
+            <div id="menu-list" class="menu-grid"></div>
+        </div>
+    </section>
+
+    <section id="order">
+        <div class="container">
+            <h2>Pemesanan</h2>
+            <form id="order-form">
+                <input type="text" id="namaPelanggan" placeholder="Nama Anda" required>
+                <div id="order-items"></div>
+                <button type="submit">Pesan Sekarang</button>
+            </form>
+            <div id="order-summary"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Miso D ROYAL. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
